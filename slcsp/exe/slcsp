@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/slcsp'
+
+calculator = SLCSP::Calculator.new
+calculator.calculate
+calculator.print_calculations
